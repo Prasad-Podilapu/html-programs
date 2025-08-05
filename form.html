@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMS</title>
+        <link rel="icon" type="x-icon" href="D:\html_programs\HTML BASICS\dragon.jpg">
+    <style>
+    body {
+    background-image: url('white_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+    </style>
+    </head>
+    <body >
+        <h1 style="background-color: rgb(83, 51, 51); text-align: center; color: white;">forms</h1>
+        <form>
+            <label for="name">ENTER NAME:</label>
+            <input type="text" id="name" name="ENTER NAME" ><br><br>
+            <label for="rno" >ENTER ROLL NUMBER :</label>
+            <input type="number" id="rno" name="ENTER ROLL NUMBER"><br><br>
+            <label for="email">ENTER EMAIL:</label>
+            <input type="email" id="email" name="ENTER EMAIL"><br><br>
+            <label for="gender" >SELECT GENDER:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male" >MALE</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="male" >FEMALE</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other" >OTHER</label><br><br>
+            <label for="country">SELECT COUNTRY</label>
+            <select id="country" name="country">
+                <option value="india">INDIA</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="newzeland">NEWZELAND</option>
+                <option value="pakistan">PAKISTAN</option>
+                <option value="other">OTHER</option>
+            </select><br><br>
+            <label for="courses" >YOUR COURSES:</label><br>
+            <input type="checkbox" id="html" name="html" value="html">
+            <label for="html" >HTML</label>
+            <input type="checkbox" id="python" name="python" value="python">
+            <label for="html" >PYTHON</label>
+            <input type="checkbox" id="java" name="java" value="java">
+            <label for="html" >JAVA</label>
+            <input type="checkbox" id="java script" name="java script" value="java script">
+            <label for="html" >JAVA SCRIPT</label>
+            <br><br>
+            <label for="address" >ENTER ADDRESS:</label>
+            <textarea id="address" name="address" rows="1" cols="50"></textarea><br><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="clear">
+        </form>
+
+    </body>
+</html>

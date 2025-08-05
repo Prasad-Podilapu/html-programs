@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>INTERNSHIP FORM</title>
+    </head>
+    <body>
+        <h1 style="text-align: center;">INTERNSHIP FORM</h1>
+        <form method="post">
+            <p>ENTER YOUR NAME:</p>
+            <input type="text" name="name">
+            <p>ENTER YOUR EMAIL:</p>
+            <input type="email" name="email">
+            <p>ENTER YOUR PASSWORD:</p>
+            <input type="password" name="password">
+            <p>ENTR YOUR AGE</p>
+            <input type="number" name="age">
+            <p>SELECT YOUR GENDER</p>
+            <input type="radio" id="male" value="male">
+            <label for="male">MALE</label>
+            <input type="radio" id="female" value="female">
+            <label for="female" >FEMALE</label>
+            <input type="radio" id="other" value="other">
+            <label for="other" >OTHER</label>
+        </form>
+        <P>ABOUT YOUR SELF:</P>
+        <textarea rows="2" cols="20" name="direction"></textarea>
+        <p>WHICH PROGRAM LANGUAGES DO YOU KNOW?</p>
+        <input type="checkbox" name="c" value="on">
+        <label for="c">C</label>
+        <input type="checkbox" name="python" value="on">
+        <label for="python" >PYTHON</label>
+        <input type="checkbox" name="html" value="on">
+        <label for="html" >HTML</label>
+        <p> MANY MOTHS DO YOU PARTICIPATED IN INTERNSHIP</p>
+            <select name="dropdown">
+            <option value="3 months">3 MONTHS</option>
+            <option value="6 months">6 MONTHS</option>
+            <option value="9 months">9 MONTHS</option>
+            </select>
+        <p>UPLOAD YOUR RESUME</p>
+        <input type="file" name="fileupload" accept="DOCUMENT/*/">
+        <p></p>
+        <a href="form.html"><input type="submit" name="submit" value="submit"></a>
+    </body>
+</html>
